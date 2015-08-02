@@ -1,0 +1,16 @@
+rm /projects/tallis/kbanerj3/dactal/dactal_scripts/bin/tmp*
+rm all_species_tree_*
+rm subset_*
+rm gene_tree_*.subset*
+rm species_tree_*
+rm starting_tree_*
+rm runtime_*
+rm st_ASTRID_QST_ms_*
+rm st_ASTRID_FN_ms_*
+rm best_QST_*
+rm ds_*
+rm max_score_QST_*
+rm output*
+rm runtime_superfine_*
+rm runtime_loop*
+ rm xyz* 
