@@ -1,0 +1,4 @@
+[&U] (((PTE,MYO),(VIC,(SUS,(BOS,TUR)))),(((((OCH,ORY),(OTO,MIC)),TAR),(((CAN,FEL),(SOR,EQU)),ERI)),(SPE,TUP)));
+[&U] ((((PTE,ERI),(FEL,CAN)),(SOR,((EQU,(MYO,((BOS,SUS),TUR))),VIC))),((TAR,(ORY,OCH)),(SPE,((OTO,MIC),TUP))));
+[&U] (MIC,((ERI,((CAN,FEL),(EQU,(BOS,(SUS,(TUR,VIC)))))),(((TUP,(SPE,(ORY,SOR))),TAR),(OCH,(MYO,PTE)))),OTO);
+[&U] (((SPE,TAR),(MYO,((((BOS,SUS),(FEL,CAN)),((EQU,(VIC,TUR)),(PTE,ERI))),SOR))),((TUP,(OCH,ORY)),(MIC,OTO)));

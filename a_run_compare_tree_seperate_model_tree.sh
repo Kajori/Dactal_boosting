@@ -60,7 +60,6 @@ while [ ${i} -lt echo ${#filename[@]}  ];do
 
             sh /projects/tallis/kbanerj3/tools/compare_FN/compareTrees.missingBranch  ${estimated_tree} ${model_tree_${index}}   >> ${filename2[${i}]}_L${loop}
 
-            rm estimated_${tree}
             rm model_tree_${index}
             let r=r+1
         done

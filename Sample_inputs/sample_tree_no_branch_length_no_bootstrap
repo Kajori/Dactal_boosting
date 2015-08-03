@@ -1,0 +1,5 @@
+(GAL,((DAS,CHO),(((MON,MAC),(PRO,(ECH,LOX))),(((PTE,MYO),(VIC,(SUS,(BOS,TUR)))),(((((DIP,CAV),(((OCH,ORY),(RAT,MUS)),(OTO,MIC))),(NEW,(CAL,(TAR,(PAN,(PON,(GOR,HOM))))))),(((CAN,FEL),(SOR,EQU)),ERI)),(SPE,TUP))))),ORN);
+;(((DAS,CHO),MON),(((ECH,(LOX,PRO)),((((PTE,ERI),(FEL,CAN)),(SOR,((EQU,(MYO,((BOS,SUS),TUR))),VIC))),(((CAL,(TAR,PON)),((DIP,(ORY,OCH)),((RAT,MUS),CAV))),(SPE,(((OTO,MIC),(GOR,(NEW,(PAN,HOM)))),TUP))))),(GAL,ORN)),MAC);
+;(MIC,((ERI,((CAN,FEL),(EQU,(BOS,(SUS,(TUR,VIC)))))),(((ORN,((ECH,(PRO,LOX)),(DAS,CHO))),(MON,MAC)),(((TUP,((SPE,((ORY,(RAT,MUS)),(SOR,CAV))),DIP)),(TAR,(CAL,(NEW,((HOM,GOR),(PON,PAN)))))),((GAL,OCH),(MYO,PTE))))),OTO);
+;(PRO,(((SPE,(CAL,TAR)),(MYO,((((BOS,SUS),(FEL,CAN)),((EQU,(VIC,TUR)),(PTE,ERI))),SOR))),(ORN,(((ECH,(((DAS,CHO),((TUP,((RAT,MUS),CAV)),(OCH,ORY))),(DIP,((MIC,OTO),(NEW,(((PAN,GOR),HOM),PON)))))),GAL),(MON,MAC)))),LOX);
+;

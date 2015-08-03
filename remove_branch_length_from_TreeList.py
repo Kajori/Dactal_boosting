@@ -31,6 +31,6 @@ for T in tree_list:
     #remove branch length
     input=re.sub(':1.0','',str(T))
 
-    print input
+    #print input
     f_w.write(input+';')
 f_w.close()

@@ -23,7 +23,7 @@ for subs in subsets:
     mat=re.findall('subset\s+\d',subs)[0]
     #print 'mat=',mat
     index=subs[len(mat)-1:subs.index(':')] #extract the subset number
-    print ' index=',index
+    #print ' index=',index
 
     taxa=subs[subs.index('[')+1:subs.index(']')]  #extract the taxa belonging to that subset, the taxa list is like [ 'S1', 'S2' ]
     #print ' all taxa',taxa

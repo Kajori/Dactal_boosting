@@ -26,9 +26,9 @@ from subprocess import call
 
 class PRDWrapper_temp :
     """
-    
+
     """
-    
+
     def __init__ ( self, subset, overlap ) :
         """
         Creates a PRD.
@@ -49,7 +49,7 @@ class PRDWrapper_temp :
         if ( subset < overlap ) :
             raise ValueError('"subset" argument should be greater than ' \
                              '"overlap" argument')
-        
+
         self._bin = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                                  'bin', 'dcm')
         # We leave empty the tree input file
@@ -84,11 +84,11 @@ class PRDWrapper_temp :
             #print "os.path.dirname(__file__) ", os.path.dirname(__file__)
             if (os.getcwd()[-3:]!='bin'):
                 os.chdir(os.path.dirname(__file__)+"/bin")
-            
+
             p = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE) #output = subprocess.check_output(command, stderr=stderr_file,universal_newlines=True)
             stdout, stderr = p.communicate()
             print " stdout =",stdout,"\n stderr=",stderr
-            
+
         # Split the output in lines, removing the first and last lines which
         # do not contain any subset data
         subset_list = stdout.split('\n')[1:-1]
@@ -96,7 +96,7 @@ class PRDWrapper_temp :
         #if ( len(subset_list) == 1 ) :
          #   print('> DCM can not obtain a decomposition with the given "subset"' \
           #        ' and "overlap"\n values for subset {0}\n'.format(subset_list[0].split(' ')[1:-1]))
-        
+
 	decomposition = []
         for subset_str in subset_list :
             # Split the subset string to get a list of taxa of the subset,
@@ -122,11 +122,11 @@ class PRDWrapper_temp :
                 subtree_file.close()
                 subsets_ith = self.decompose_dataset(subtree_file.name)
                 decomposition += subsets_ith
-                
-                
+
+
             else : # (len(subset_list) == 1) or (len(subset) <= self._subset)
                 decomposition.append(subset)
         return ( decomposition )
-	
+
 
 #  --------------------------------------------------------------------------  #

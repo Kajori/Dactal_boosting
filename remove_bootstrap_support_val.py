@@ -11,7 +11,7 @@
 # example : python remove_bootstrap_support_val.py gene_tree_tmp1_2X-200-500_R3 gene_tree_3
 #-------------------------------------------------------------------------------
 import dendropy
-import re
+import regex as re
 import sys
 
 filename=sys.argv[1]
@@ -21,8 +21,15 @@ tree_list = dendropy.TreeList.get_from_path(filename,'newick')
 
 f_w = open(outfile,'w')
 for T in tree_list:
-    input=T.as_string()
-    input=re.sub('\)\d+:','):',input)
+    input=T.as_string('newick')
+    for mat in re.findall(r'\)\d+:', input, overlapped=True):
+        input=re.sub('\)'+mat[1:-1]+':',input)
+    for mat in re.findall(r'\)\d+,', input, overlapped=True):
+        input=re.sub('\)'+mat[1:-1]+',','),',input)
+    for mat in re.findall(r'\)\d+\)', input, overlapped=True):
+        input=re.sub('\)'+mat[1:-1]+'\)','))',input)
+
+
     #e_list=re.findall('e-\d+',input)
     #for b in e_list:
     #    input=re.sub(b,'',input)

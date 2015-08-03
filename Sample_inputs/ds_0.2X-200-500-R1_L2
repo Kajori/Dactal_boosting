@@ -1,0 +1,14 @@
+
+ command = ./dcm 3 /projects/tallis/kbanerj3/dactal/st_ASTRID/simmulated_mammalian_0.2X-200gt-500bp/max_subset_size-25_p-1/starting_tree_0.2X-200-500-R1_L1 1
+ stdout = decomposition:
+* OTO MIC TAR TUP OCH ORY SPE EQU ERI SOR NEW HOM PAN GOR PON CAL
+* OTO MIC TAR TUP OCH ORY SPE EQU ERI SOR MUS RAT DIP CAV
+* OTO MIC TAR TUP OCH ORY SPE EQU ERI SOR ECH LOX PRO DAS CHO GAL ORN MON MAC
+* OTO MIC TAR TUP OCH ORY SPE EQU ERI SOR TUR BOS SUS VIC CAN FEL MYO PTE
+
+ stderr= None
+subset  0: ['OTO', 'MIC', 'TAR', 'TUP', 'OCH', 'ORY', 'SPE', 'EQU', 'ERI', 'SOR', 'NEW', 'HOM', 'PAN', 'GOR', 'PON', 'CAL']
+subset  1: ['OTO', 'MIC', 'TAR', 'TUP', 'OCH', 'ORY', 'SPE', 'EQU', 'ERI', 'SOR', 'MUS', 'RAT', 'DIP', 'CAV']
+subset  2: ['OTO', 'MIC', 'TAR', 'TUP', 'OCH', 'ORY', 'SPE', 'EQU', 'ERI', 'SOR', 'ECH', 'LOX', 'PRO', 'DAS', 'CHO', 'GAL', 'ORN', 'MON', 'MAC']
+subset  3: ['OTO', 'MIC', 'TAR', 'TUP', 'OCH', 'ORY', 'SPE', 'EQU', 'ERI', 'SOR', 'TUR', 'BOS', 'SUS', 'VIC', 'CAN', 'FEL', 'MYO', 'PTE']
+subset 13: ['OTO', 'MIC', 'TAR', 'TUP', 'OCH', 'ORY', 'SPE', 'EQU', 'ERI', 'SOR', 'TUR', 'BOS', 'SUS', 'VIC', 'CAN', 'FEL', 'MYO', 'PTE']

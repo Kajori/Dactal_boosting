@@ -30,7 +30,7 @@ for i in range(len(edges)-1):
 #remove branch length
 input=re.sub(':1.0','',str(T))
 
-print input
+#print input
 
 f_w = open(filename,'w')
 f_w.write(input+';')
